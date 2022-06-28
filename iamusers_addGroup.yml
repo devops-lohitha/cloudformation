@@ -1,0 +1,7 @@
+Resources:
+  myUser:
+    Type: 'AWS::IAM::User'
+    Properties:
+      UserName: userD # give a name to this user
+      Groups: # attach this user to the list of existing groups
+          - groupA
